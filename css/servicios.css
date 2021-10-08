@@ -55,3 +55,40 @@
     color: #FFF;
 
 }
+
+
+@media only screen and (max-width: 960px) 
+{
+    .service_section_services_container
+    {
+        flex-direction: column;
+    }
+
+    
+    .services_section_item_tittle
+    {
+        font-size: 20px;
+    }
+
+    .services_section_item_text
+    {
+        font-size: 20px;
+        height: auto;
+    }
+
+    .service_section_services_item
+    {
+        width: 70%;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 560px) 
+{
+    .service_section_services_item
+    {
+        width: 90%;
+    }
+
+}

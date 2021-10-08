@@ -126,7 +126,7 @@ section.mainSplash
     top: 0px;
     padding-top: 550px;
 }
-
+/*
 nav.navbar
 {
     position: fixed;
@@ -158,6 +158,8 @@ nav.navbar
     list-style-type: none;  
 }
 
+
+
 a.navlink:link 
 {
     color:#FFF;
@@ -169,6 +171,8 @@ a.navlink:visited
     color: #FFF;
     text-decoration:none;
 }
+
+*/
 
 
 .mainSplash_home
@@ -240,10 +244,6 @@ a.navlink:visited
 .home_section
 {
     padding: 40px 10%;
-}
-
-.home_section
-{
     display:flex;
     flex-direction: column;
 }
@@ -554,6 +554,161 @@ footer
 {
     color: #FFF;
     font-size: 18px;
+}
+
+
+@media only screen and (max-width: 960px) 
+{
+
+
+    .logoContainer
+    {
+        width: 40%;
+        height: 100%;
+        min-width: 200px;
+    }
+
+    .home_section_content
+    {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .home_section_content_info_content
+    {
+        width: 100%;
+    }
+
+    .home_section_content_image_content
+    {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    /* ABOUT US */
+    h2.home_section_tittle
+    {
+        text-align: center;
+    }
+    /* HOME SERVICIOS */
+
+    .home_section_services_container
+    {
+        flex-direction: column;
+    }
+    
+
+    .home_section_services_item_tittle
+    {
+        font-size: 20px;
+    }
+
+    .home_section_services_item_text
+    {
+        font-size: 20px;
+        height: auto;
+    }
+
+    .home_section_services_item
+    {
+        width: 70%;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .home_blog_article_data
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .home_blog_thumb
+    {
+        width: 100%;
+    }
+
+    .footer_disclaimerContainer
+    {
+        opacity: 0;
+    }
+
+    .footer_logoContainer_main
+    {
+        width: 250px;
+        position: absolute;
+    }
+
+    .footer_grid
+    {
+        display: grid;
+        grid-template-areas:
+        "footerBorder footerBorder footerBorder footerBorder"
+        "footerLogo .  logo_fb ."
+        "footerLogo .  logo_insta ."
+        "footerLogo dis  logo_twitter ."
+        "footerLogo . . .";
+
+        grid-template-columns: 2fr 6fr 1fr 1fr; 
+        grid-template-rows: 1fr 2fr 2fr 2fr ;
+        grid-row-gap: 10px;
+        align-items: center;
+        justify-content:center;
+    
+    }
+    
+}
+
+@media only screen and (max-width: 560px) 
+{
+
+    /*NAV BAR */ 
+    .logoContainer
+    {
+        width: 40%;
+        height: 100%;
+        min-width: 200px;
+    }
+
+    h1.mainTittle
+    {
+        font-size: 40px;
+    }
+
+    h2.mainTittle
+    {
+        font-size: 20px;
+    }
+    .navItem
+    {
+        font-size: 1.6vw;
+    }
+
+    /* ABOUT US */
+    h2.home_section_tittle
+    {
+        font-size: 25px;
+        padding-top: 10PX;
+        text-align: center;
+    }
+
+    .home_section_content_info_content_subtittle
+    {
+        font-size: 18px;
+    }
+
+    .home_section_content_info_content_button
+    {
+        justify-content: center;
+    }
+
+    .home_section_services_item
+    {
+        width: 90%;
+    }
+
+
+
 }
 
 
