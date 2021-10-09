@@ -98,7 +98,6 @@
     display: flex;
     flex-direction: row;
     padding: 20px;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -129,11 +128,13 @@
 
 .about_us_team_member_name
 {
-   font-size: 25px;
+   font-size: 20px;
+   text-align: center;
 }
 .about_us_team_member_profesion
 {
-   font-size: 25px;
+   font-size: 20px;
+   text-align: center;
 }
 
 
@@ -172,17 +173,7 @@
     {
         width: 40%;
     }
-    .about_us_team_member_name
-    {
-        font-size: 20px;
-        text-align: center;
-    }
 
-    .about_us_team_member_profesion
-    {
-        font-size: 20px;
-        text-align: center;
-    }
 
 
 
@@ -194,4 +185,6 @@
     {
         width: 80%;
     }
+
+
 }
