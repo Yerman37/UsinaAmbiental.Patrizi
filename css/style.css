@@ -560,6 +560,34 @@ footer
 }
 
 
+.article_link
+{
+    text-decoration: none;
+}
+
+.article_link:visited
+{
+    text-decoration: none;
+}
+
+
+.article_link:link
+{
+    text-decoration: none;
+}
+
+.article_link:hover
+{
+    text-decoration: underline;
+}
+
+.article_link:active
+{
+    text-decoration: none;
+}
+
+
+
 @media only screen and (max-width: 1920px) 
 {
     .home_section_services_item_text
@@ -764,6 +792,11 @@ footer
         width: 90%;
     }
 
+    
+    .home_blog_button_container
+    {
+        opacity: 0;
+    }
 
 
 }
